@@ -77,7 +77,16 @@
          "charconv": "cpp",
          "format": "cpp",
          "span": "cpp",
-         "text_encoding": "cpp"
+         "text_encoding": "cpp",
+         "csetjmp": "cpp",
+         "cfenv": "cpp",
+         "source_location": "cpp",
+         "shared_mutex": "cpp",
+         "stdfloat": "cpp",
+         "csignal": "cpp",
+         "any": "cpp",
+         "strstream": "cpp",
+         "future": "cpp"
       },
       "cmake.autoSelectActiveFolder": false,
       "spellright.language": [
@@ -95,7 +104,11 @@
          "log": {
             "parser": "plain"
          }
-      }
+      },
+      "cmake.preferredGenerators": [
+         "Unix Makefiles",
+         "Ninja"
+      ]
    },
    "launch": {
       "version": "0.2.0",
